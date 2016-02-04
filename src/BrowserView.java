@@ -98,6 +98,13 @@ public class BrowserView {
 		else {
 			showError(String.format(myResources.getString("ErrorOnGo"),  url));
 		}
+//		try {
+//			URL valid = myModel.go(url);
+//			update(valid);
+//		}
+//		catch(BrowserException e){
+//			showError(e.getMessage());
+//		}
 	}
 
 	/**

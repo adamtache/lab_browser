@@ -78,6 +78,9 @@ public class BrowserModel {
         catch (Exception e) {
             return null;
         }
+//        catch (Exception e) {
+//            throw new BrowserException(String.format(myResources.getString("ErrorOnGo"), url));
+//        }
     }
 
     /**
